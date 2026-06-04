@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./banner.svg" alt="Dharwin S Banner" width="100%" />
+  <img src="./banner-v2.svg" alt="Dharwin S Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./typing.svg" alt="Typing Animation" width="100%" />
+  <img src="./typing-v2.svg" alt="Typing Animation" width="100%" />
 </p>
 
 <!-- Quick Navigation Bar -->
