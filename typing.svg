@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 50" width="600" height="50">
+  <defs>
+    <!-- Clip paths for typing effect. All start at x=250 where the typed text begins -->
+    <clipPath id="clip1">
+      <rect id="rect1" x="250" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip2">
+      <rect id="rect2" x="250" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip3">
+      <rect id="rect3" x="250" y="0" width="0" height="50" />
+    </clipPath>
+    <clipPath id="clip4">
+      <rect id="rect4" x="250" y="0" width="0" height="50" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;display=swap');
+
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 15px;
+      fill: #f1f5f9;
+    }
+
+    .prompt {
+      fill: #10b981;
+      font-weight: 600;
+    }
+
+    .command {
+      fill: #e2e8f0;
+    }
+
+    .typed-text {
+      fill: #3b82f6;
+      font-weight: 600;
+    }
+
+    .cursor {
+      fill: #00f2fe;
+      animation: blink 0.8s infinite;
+    }
+
+    /* Keyframes for Clip Widths (Typing)
+       Total cycle is 16 seconds (4 seconds per phrase)
+    */
+    @keyframes type1 {
+      0%, 100% { width: 0; }
+      1.5%, 22% { width: 260px; } /* Types out and stays */
+      23.5%, 25% { width: 0; }     /* Erases */
+    }
+
+    @keyframes type2 {
+      0%, 25%, 100% { width: 0; }
+      26.5%, 47% { width: 212px; }
+      48.5%, 50% { width: 0; }
+    }
+
+    @keyframes type3 {
+      0%, 50%, 100% { width: 0; }
+      51.5%, 72% { width: 183px; }
+      73.5%, 75% { width: 0; }
+    }
+
+    @keyframes type4 {
+      0%, 75%, 100% { width: 0; }
+      76.5%, 97% { width: 250px; }
+      98.5%, 99.9% { width: 0; }
+    }
+
+    /* Opacity cycle for each text group */
+    @keyframes opacity1 {
+      0%, 25% { opacity: 1; }
+      25.01%, 100% { opacity: 0; }
+    }
+    @keyframes opacity2 {
+      0%, 25.01% { opacity: 0; }
+      25.02%, 50% { opacity: 1; }
+      50.01%, 100% { opacity: 0; }
+    }
+    @keyframes opacity3 {
+      0%, 50.01% { opacity: 0; }
+      50.02%, 75% { opacity: 1; }
+      75.01%, 100% { opacity: 0; }
+    }
+    @keyframes opacity4 {
+      0%, 75.01% { opacity: 0; }
+      75.02%, 100% { opacity: 1; }
+    }
+
+    /* Cursor X movement mapping to typing widths (starts at translate=0, which aligns with x=250) */
+    @keyframes cursorMove {
+      /* Phase 1 */
+      0% { transform: translateX(0px); }
+      1.5%, 22% { transform: translateX(260px); }
+      23.5%, 25% { transform: translateX(0px); }
+
+      /* Phase 2 */
+      26.5%, 47% { transform: translateX(212px); }
+      48.5%, 50% { transform: translateX(0px); }
+
+      /* Phase 3 */
+      51.5%, 72% { transform: translateX(183px); }
+      73.5%, 75% { transform: translateX(0px); }
+
+      /* Phase 4 */
+      76.5%, 97% { transform: translateX(250px); }
+      98.5%, 100% { transform: translateX(0px); }
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    #rect1 { animation: type1 16s infinite steps(27); }
+    #rect2 { animation: type2 16s infinite steps(22); }
+    #rect3 { animation: type3 16s infinite steps(19); }
+    #rect4 { animation: type4 16s infinite steps(26); }
+
+    .group1 { animation: opacity1 16s infinite; }
+    .group2 { animation: opacity2 16s infinite; }
+    .group3 { animation: opacity3 16s infinite; }
+    .group4 { animation: opacity4 16s infinite; }
+
+    .cursor-wrapper {
+      animation: cursorMove 16s infinite;
+    }
+  </style>
+
+  <!-- Background bar -->
+  <rect width="600" height="40" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Terminal Window Controls (left side) -->
+  <circle cx="20" cy="20" r="5" fill="#ef4444" />
+  <circle cx="35" cy="20" r="5" fill="#f59e0b" />
+  <circle cx="50" cy="20" r="5" fill="#10b981" />
+
+  <!-- Prompt & Static Command -->
+  <text x="70" y="25" class="terminal-text prompt">dharwin@kec:~$</text>
+  <text x="205" y="25" class="terminal-text command">echo</text>
+
+  <!-- Text 1: "AI &amp; Data Science Student" -->
+  <g class="group1">
+    <text x="250" y="25" class="terminal-text typed-text" fill="#00f2fe" clip-path="url(#clip1)">&quot;AI &amp; Data Science Student&quot;</text>
+  </g>
+
+  <!-- Text 2: "Full Stack Developer" -->
+  <g class="group2">
+    <text x="250" y="25" class="terminal-text typed-text" fill="#8b5cf6" clip-path="url(#clip2)">&quot;Full Stack Developer&quot;</text>
+  </g>
+
+  <!-- Text 3: "AI/ML Enthusiast" -->
+  <g class="group3">
+    <text x="250" y="25" class="terminal-text typed-text" fill="#f59e0b" clip-path="url(#clip3)">&quot;AI/ML Enthusiast&quot;</text>
+  </g>
+
+  <!-- Text 4: "Passionate Tech Explorer" -->
+  <g class="group4">
+    <text x="250" y="25" class="terminal-text typed-text" fill="#10b981" clip-path="url(#clip4)">&quot;Passionate Tech Explorer&quot;</text>
+  </g>
+
+  <!-- Blinking Cursor -->
+  <!-- Set base position to x=250, then animate translateX -->
+  <g class="cursor-wrapper" transform="translate(250, 0)">
+    <rect x="2" y="10" width="8" height="18" class="cursor" />
+  </g>
+</svg>
