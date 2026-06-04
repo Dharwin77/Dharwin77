@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Dharwin S | Tech Portfolio ⚡</h1>
+<h1 align="center">🧠 Dharwin S | Neural Sandbox &amp; Web Architect</h1>
 
 <p align="center">
   <img src="./banner.svg" alt="Dharwin S Banner" width="100%" />
