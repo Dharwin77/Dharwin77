@@ -16,8 +16,8 @@
 
     <!-- Glass border gradient -->
     <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff0055" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#d1ff24" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -52,7 +52,7 @@
     }
 
     .prompt {
-      fill: #d1ff24;
+      fill: #10b981;
       font-weight: 600;
     }
 
@@ -61,11 +61,13 @@
     }
 
     .typed-text {
+      fill: #00f2fe;
       font-weight: 600;
+      filter: drop-shadow(0px 0px 3px rgba(0, 242, 254, 0.4));
     }
 
     .cursor {
-      fill: #ff0055;
+      fill: #00f2fe;
       animation: blink 0.8s infinite;
     }
 
@@ -151,17 +153,17 @@
   </style>
 
   <!-- Shadow Glow Base (3D Depth) -->
-  <rect x="25" y="15" width="550" height="36" rx="8" fill="#ff0055" opacity="0.1" filter="url(#neonGlow)" />
+  <rect x="25" y="15" width="550" height="36" rx="8" fill="#00f2fe" opacity="0.12" filter="url(#neonGlow)" />
 
   <!-- 3D Floating Terminal Body -->
   <g class="terminal-body">
     <!-- Main Window Background -->
-    <rect x="20" y="10" width="560" height="38" rx="8" fill="#050508" fill-opacity="0.9" stroke="url(#glassBorder)" stroke-width="1.5" />
+    <rect x="20" y="10" width="560" height="38" rx="8" fill="#070a16" fill-opacity="0.9" stroke="url(#glassBorder)" stroke-width="1.5" />
 
     <!-- Terminal Window Controls (left side) -->
-    <circle cx="40" cy="29" r="4.5" fill="#ff0055" />
-    <circle cx="53" cy="29" r="4.5" fill="#d1ff24" />
-    <circle cx="66" cy="29" r="4.5" fill="#8a8a93" />
+    <circle cx="40" cy="29" r="4.5" fill="#ef4444" />
+    <circle cx="53" cy="29" r="4.5" fill="#f59e0b" />
+    <circle cx="66" cy="29" r="4.5" fill="#10b981" />
 
     <!-- Prompt & Static Command -->
     <text x="85" y="34" class="terminal-text prompt">dharwin@kec:~$</text>
@@ -169,22 +171,22 @@
 
     <!-- Text 1: "AI &amp; Data Science Student" -->
     <g class="group1">
-      <text x="250" y="34" class="terminal-text typed-text" fill="#ff0055" clip-path="url(#clip1)">&quot;AI &amp; Data Science Student&quot;</text>
+      <text x="250" y="34" class="terminal-text typed-text" fill="#00f2fe" clip-path="url(#clip1)">&quot;AI &amp; Data Science Student&quot;</text>
     </g>
 
     <!-- Text 2: "Full Stack Developer" -->
     <g class="group2">
-      <text x="250" y="34" class="terminal-text typed-text" fill="#d1ff24" clip-path="url(#clip2)">&quot;Full Stack Developer&quot;</text>
+      <text x="250" y="34" class="terminal-text typed-text" fill="#8b5cf6" clip-path="url(#clip2)">&quot;Full Stack Developer&quot;</text>
     </g>
 
     <!-- Text 3: "AI/ML Enthusiast" -->
     <g class="group3">
-      <text x="250" y="34" class="terminal-text typed-text" fill="#ff0055" clip-path="url(#clip3)">&quot;AI/ML Enthusiast&quot;</text>
+      <text x="250" y="34" class="terminal-text typed-text" fill="#fbbf24" clip-path="url(#clip3)">&quot;AI/ML Enthusiast&quot;</text>
     </g>
 
     <!-- Text 4: "Passionate Tech Explorer" -->
     <g class="group4">
-      <text x="250" y="34" class="terminal-text typed-text" fill="#d1ff24" clip-path="url(#clip4)">&quot;Passionate Tech Explorer&quot;</text>
+      <text x="250" y="34" class="terminal-text typed-text" fill="#10b981" clip-path="url(#clip4)">&quot;Passionate Tech Explorer&quot;</text>
     </g>
 
     <!-- Blinking Cursor -->

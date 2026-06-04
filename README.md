@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Dharwin S | Neural Sandbox &amp; Web Architect</h1>
+<h1 align="center">⚡ Dharwin S | Tech Portfolio ⚡</h1>
 
 <p align="center">
   <img src="./banner.svg" alt="Dharwin S Banner" width="100%" />
@@ -200,25 +200,25 @@ Dynamic development dashboard summarizing active git statistics:
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Dharwin77&show_icons=true&theme=tokyonight&border_radius=8&bg_color=050508&title_color=ff0055&text_color=f1f5f9&icon_color=d1ff24&border_color=1c1c28&hide_border=false" alt="Dharwin's GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=Dharwin77&show_icons=true&theme=tokyonight&border_radius=8&bg_color=080e1e&title_color=00f2fe&text_color=f1f5f9&icon_color=8b5cf6&border_color=1e293b&hide_border=false" alt="Dharwin's GitHub Stats" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharwin77&layout=compact&theme=tokyonight&border_radius=8&bg_color=050508&title_color=ff0055&text_color=f1f5f9&icon_color=d1ff24&border_color=1c1c28&hide_border=false" alt="Most Used Languages" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharwin77&layout=compact&theme=tokyonight&border_radius=8&bg_color=080e1e&title_color=00f2fe&text_color=f1f5f9&icon_color=8b5cf6&border_color=1e293b&hide_border=false" alt="Most Used Languages" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dharwin77&theme=dark&background=050508&fire=ff0055&ring=d1ff24&currStreakLabel=ff0055&currStreakNum=f1f5f9&sideNums=f1f5f9&sideLabels=8e8e93&dates=8e8e93&border=1c1c28&border_radius=8" alt="GitHub Streak" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dharwin77&theme=dark&background=080e1e&fire=8b5cf6&ring=00f2fe&border=1e293b&border_radius=8" alt="GitHub Streak" width="100%" />
     </td>
     <td width="50%" align="center">
-      <img src="https://leetcard.jacoblin.cool/dharwins?theme=dark&font=Outfit&bg_color=050508&border_color=1c1c28&border_radius=8" alt="LeetCode Stats" width="100%" />
+      <img src="https://leetcard.jacoblin.cool/dharwins?theme=dark&font=Outfit&bg_color=080e1e&border_color=1e293b&border_radius=8" alt="LeetCode Stats" width="100%" />
     </td>
   </tr>
 </table>
 
 #### 📈 Interactive Contribution Pulse
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dharwin77&bg_color=050508&color=f1f5f9&line=ff0055&point=d1ff24&area=true&hide_border=false&border_color=1c1c28&border_radius=8" alt="Dharwin's Activity Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dharwin77&bg_color=080e1e&color=f1f5f9&line=8b5cf6&point=00f2fe&area=true&hide_border=false&border_color=1e293b&border_radius=8" alt="Dharwin's Activity Graph" width="100%" />
 </p>
 
 ---
