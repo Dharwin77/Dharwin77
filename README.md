@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner-v5.svg" alt="Dharwin S Banner" width="100%" />
+  <img src="./banner-v6.svg" alt="Dharwin S Banner" width="100%" />
 </p>
 
 <p align="center">
