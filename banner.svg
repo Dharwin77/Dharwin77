@@ -2,201 +2,347 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050814" />
-      <stop offset="50%" stop-color="#0b132b" />
-      <stop offset="100%" stop-color="#1c2541" />
+      <stop offset="0%" stop-color="#040612" />
+      <stop offset="40%" stop-color="#080c20" />
+      <stop offset="100%" stop-color="#12183a" />
     </linearGradient>
-    
-    <!-- Text Glow Gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="50%" stop-color="#8b5cf6" />
+
+    <!-- Glassmorphic Panel Gradient -->
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="40%" stop-color="#8b5cf6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- 3D Core Gradients -->
+    <linearGradient id="coreTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
       <stop offset="100%" stop-color="#00f2fe" />
     </linearGradient>
-
-    <!-- Accent Gradient -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="100%" stop-color="#8b5cf6" />
+    <linearGradient id="coreSide" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="50%" stop-color="#1e40af" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="coreGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
     </linearGradient>
 
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <!-- 3D Cube Gradients -->
+    <!-- Cyan Cube -->
+    <linearGradient id="cyanTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="cyanLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+    <linearGradient id="cyanRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490" />
+      <stop offset="100%" stop-color="#155e75" />
+    </linearGradient>
+
+    <!-- Purple Cube -->
+    <linearGradient id="purpleTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="purpleLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+    <linearGradient id="purpleRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7e22ce" />
+      <stop offset="100%" stop-color="#6b21a8" />
+    </linearGradient>
+
+    <!-- Amber Cube -->
+    <linearGradient id="amberTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="amberLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="amberRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+
+    <!-- Shadows and Glows -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
   </defs>
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&amp;family=Fira+Code:wght@400;500&amp;display=swap');
-    
+
+    /* 3D Glassmorphic Panel Tilt */
+    .glass-card {
+      transform-origin: 220px 150px;
+      animation: tilt3D 7s ease-in-out infinite;
+      filter: url(#shadow);
+    }
+
+    @keyframes tilt3D {
+      0% { transform: perspective(1000px) rotateX(3deg) rotateY(-4deg) rotateZ(0.5deg); }
+      50% { transform: perspective(1000px) rotateX(-3deg) rotateY(4deg) rotateZ(-0.5deg); }
+      100% { transform: perspective(1000px) rotateX(3deg) rotateY(-4deg) rotateZ(0.5deg); }
+    }
+
+    /* 3D Floating Elements */
+    .float-core {
+      animation: floatCore 6s ease-in-out infinite;
+    }
+    @keyframes floatCore {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .float-cube1 {
+      animation: floatCube1 4.5s ease-in-out infinite;
+    }
+    @keyframes floatCube1 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    .float-cube2 {
+      animation: floatCube2 5.5s ease-in-out infinite;
+    }
+    @keyframes floatCube2 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(-3deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    .float-cube3 {
+      animation: floatCube3 5s ease-in-out infinite;
+    }
+    @keyframes floatCube3 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+
+    /* 3D Ring Rotation using SVG perspective projection */
+    .rotating-ring-1 {
+      transform-origin: 640px 150px;
+      animation: spin3D1 16s linear infinite;
+    }
+    @keyframes spin3D1 {
+      from { transform: rotateX(65deg) rotateY(15deg) rotateZ(0deg); }
+      to { transform: rotateX(65deg) rotateY(15deg) rotateZ(360deg); }
+    }
+
+    .rotating-ring-2 {
+      transform-origin: 640px 150px;
+      animation: spin3D2 12s linear infinite reverse;
+    }
+    @keyframes spin3D2 {
+      from { transform: rotateX(60deg) rotateY(-20deg) rotateZ(0deg); }
+      to { transform: rotateX(60deg) rotateY(-20deg) rotateZ(360deg); }
+    }
+
+    /* Text & Badges Styling */
     .title {
-      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 54px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 48px;
       font-weight: 800;
-      fill: url(#textGrad);
-      filter: drop-shadow(0px 0px 12px rgba(0, 242, 254, 0.5));
+      fill: #ffffff;
+    }
+    .title-glow {
+      fill: #00f2fe;
+      filter: url(#neonGlow);
+      opacity: 0.7;
     }
     
     .subtitle {
-      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 16px;
-      font-weight: 400;
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #a7f3d0;
+      letter-spacing: 2px;
+    }
+
+    .text-detail {
+      font-family: 'Outfit', sans-serif;
+      font-size: 12px;
       fill: #94a3b8;
-      letter-spacing: 3px;
     }
 
     .role-badge {
       font-family: 'Fira Code', monospace;
       font-size: 11px;
       fill: #00f2fe;
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .badge-bg {
-      fill: #0b152d;
-      stroke: #1e293b;
-      stroke-width: 1.5px;
-      rx: 6px;
-    }
-    
-    /* Animations */
-    @keyframes float {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-      100% { transform: translateY(0px); }
+      fill: #030712;
+      stroke: #1f2937;
+      stroke-width: 1px;
+      rx: 4px;
     }
 
-    @keyframes pulse {
-      0% { opacity: 0.3; transform: scale(0.95); }
-      50% { opacity: 0.9; transform: scale(1.05); }
-      100% { opacity: 0.3; transform: scale(0.95); }
+    /* Data Pulse Animation */
+    .pulse-line {
+      stroke-dasharray: 12, 12;
+      animation: pulseFlow 4s linear infinite;
     }
-
-    @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-
-    .floating-group {
-      animation: float 6s ease-in-out infinite;
-    }
-
-    .pulsing-node {
-      animation: pulse 3s ease-in-out infinite;
-      transform-origin: center;
-    }
-
-    .rotating-orbit {
-      transform-origin: 640px 150px;
-      animation: rotate 25s linear infinite;
-    }
-    
-    .rotating-orbit-reverse {
-      transform-origin: 640px 150px;
-      animation: rotate 18s linear infinite reverse;
+    @keyframes pulseFlow {
+      to { stroke-dashoffset: -48; }
     }
   </style>
 
   <!-- Background -->
   <rect width="830" height="300" fill="url(#bgGrad)" />
 
-  <!-- Grid lines overlay for tech vibe -->
-  <g opacity="0.05">
-    <path d="M 0,50 L 830,50 M 0,100 L 830,100 M 0,150 L 830,150 M 0,200 L 830,200 M 0,250 L 830,250" stroke="#ffffff" stroke-width="1" />
-    <path d="M 100,0 L 100,300 M 200,0 L 200,300 M 300,0 L 300,300 M 400,0 L 400,300 M 500,0 L 500,300 M 600,0 L 600,300 M 700,0 L 700,300 M 800,0 L 800,300" stroke="#ffffff" stroke-width="1" />
+  <!-- 3D Perspective Isometric Grid Background (Right Side) -->
+  <g opacity="0.08" transform="translate(640, 150)">
+    <!-- Drawing grid lines on an isometric perspective plane -->
+    <path d="M -200,0 L 200,0 M -180,-30 L 180,30 M -180,30 L 180,-30 M -120,-60 L 120,60 M -120,60 L 120,-60 M -60,-90 L 60,90 M -60,90 L 60,-90" stroke="#00f2fe" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#00f2fe" stroke-width="1" />
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#00f2fe" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#00f2fe" stroke-width="2" />
   </g>
 
-  <!-- Animated Neural/Data Grid Background on the right -->
-  <g class="floating-group">
-    <!-- Glowing background orbits -->
-    <circle cx="640" cy="150" r="100" fill="none" stroke="#2563eb" stroke-width="1" stroke-dasharray="6,12" opacity="0.25" class="rotating-orbit" />
-    <circle cx="640" cy="150" r="75" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="12,6" opacity="0.2" class="rotating-orbit-reverse" />
-    <circle cx="640" cy="150" r="120" fill="none" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,20" opacity="0.15" class="rotating-orbit" />
+  <!-- Left Side: 3D Tilting Glassmorphic Panel -->
+  <g class="glass-card">
+    <!-- Back Glow -->
+    <rect x="35" y="25" width="410" height="250" rx="16" fill="#06b6d4" opacity="0.08" filter="url(#neonGlow)" />
+    <!-- Panel Body -->
+    <rect x="30" y="20" width="410" height="250" rx="16" fill="#070a16" fill-opacity="0.8" stroke="url(#glassBorder)" stroke-width="1.5" />
     
-    <!-- Central Node -->
-    <circle cx="640" cy="150" r="28" fill="#050814" stroke="url(#accentGrad)" stroke-width="2.5" filter="url(#glow)" />
+    <!-- Top Corner Tech Accent -->
+    <path d="M 40 35 L 55 35 M 40 35 L 40 50" stroke="#00f2fe" stroke-width="2" fill="none" />
+    <path d="M 430 35 L 415 35 M 430 35 L 430 50" stroke="#8b5cf6" stroke-width="2" fill="none" />
+
+    <!-- Pulse status inside card -->
+    <g transform="translate(55, 52)">
+      <circle cx="6" cy="6" r="4.5" fill="#10b981" />
+      <circle cx="6" cy="6" r="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.5">
+        <animate attributeName="r" values="4.5;10;4.5" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+      <text class="role-badge" x="20" y="10">SYS.STATUS: ACTIVE // B.TECH 23-27</text>
+    </g>
+
+    <!-- Main Title (Dharwin S) with 3D shadow layer -->
+    <text class="title title-glow" x="55" y="117">Dharwin S</text>
+    <text class="title" x="55" y="115">Dharwin S</text>
+
+    <!-- Subtitles -->
+    <text class="subtitle" x="55" y="152">AI &amp; DATA SCIENCE STUDENT</text>
+    <text class="subtitle" x="55" y="172" fill="#a78bfa">FULL STACK DEVELOPER</text>
     
-    <!-- Outer Nodes & Connecting Lines -->
-    <!-- Node 1: Top Left -->
-    <line x1="640" y1="150" x2="550" y2="90" stroke="#00f2fe" stroke-width="1.5" opacity="0.4" />
-    <circle cx="550" cy="90" r="7" fill="#00f2fe" filter="url(#glow)" />
-    <circle cx="550" cy="90" r="12" fill="none" stroke="#00f2fe" stroke-width="1" opacity="0.5" class="pulsing-node" style="animation-delay: 0s;" />
+    <!-- Divider -->
+    <line x1="55" y1="190" x2="350" y2="190" stroke="#1f2937" stroke-width="1.5" />
 
-    <!-- Node 2: Top Right -->
-    <line x1="640" y1="150" x2="720" y2="80" stroke="#8b5cf6" stroke-width="1.5" opacity="0.4" />
-    <circle cx="720" cy="80" r="6" fill="#8b5cf6" filter="url(#glow)" />
-    <circle cx="720" cy="80" r="10" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.5" class="pulsing-node" style="animation-delay: 0.7s;" />
+    <!-- Bottom Badges inside card -->
+    <g transform="translate(55, 208)">
+      <!-- AI/ML Badge -->
+      <rect class="badge-bg" x="0" y="0" width="70" height="24" />
+      <text font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#00f2fe" x="17" y="15">AI/ML</text>
 
-    <!-- Node 3: Bottom Right -->
-    <line x1="640" y1="150" x2="730" y2="210" stroke="#3b82f6" stroke-width="1.5" opacity="0.4" />
-    <circle cx="730" cy="210" r="8" fill="#3b82f6" filter="url(#glow)" />
-    <circle cx="730" cy="210" r="14" fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.5" class="pulsing-node" style="animation-delay: 1.4s;" />
+      <!-- Web Dev Badge -->
+      <rect class="badge-bg" x="80" y="0" width="90" height="24" />
+      <text font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#8b5cf6" x="14" y="15">Full-Stack</text>
 
-    <!-- Node 4: Bottom Left -->
-    <line x1="640" y1="150" x2="560" y2="210" stroke="#10b981" stroke-width="1.5" opacity="0.4" />
-    <circle cx="560" cy="210" r="5" fill="#10b981" filter="url(#glow)" />
-    <circle cx="560" cy="210" r="9" fill="none" stroke="#10b981" stroke-width="1" opacity="0.5" class="pulsing-node" style="animation-delay: 2.1s;" />
+      <!-- CGPA Badge -->
+      <rect class="badge-bg" x="180" y="0" width="95" height="24" stroke="#fbbf24" />
+      <circle cx="192" cy="12" r="3" fill="#fbbf24" />
+      <text font-family="'Fira Code', monospace" font-size="10" font-weight="600" fill="#fbbf24" x="204" y="15">CGPA: 8.11</text>
+    </g>
 
-    <!-- Node 5: Top Center -->
-    <line x1="640" y1="150" x2="630" y2="50" stroke="#f59e0b" stroke-width="1.5" opacity="0.4" />
-    <circle cx="630" cy="50" r="5" fill="#f59e0b" filter="url(#glow)" />
-    <circle cx="630" cy="50" r="9" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.5" class="pulsing-node" style="animation-delay: 1s;" />
-
-    <!-- Inter-node mesh connections -->
-    <polygon points="550,90 630,50 640,150" fill="url(#accentGrad)" opacity="0.04" />
-    <polygon points="720,80 730,210 640,150" fill="url(#accentGrad)" opacity="0.04" />
-    <polygon points="560,210 640,150 730,210" fill="url(#accentGrad)" opacity="0.04" />
+    <text class="text-detail" x="55" y="252">📍 Kongu Engineering College // AI/ML Enthusiast</text>
   </g>
 
-  <!-- Left Side Content -->
-  <!-- Status Badge -->
-  <g transform="translate(60, 50)">
-    <rect class="badge-bg" x="0" y="0" width="136" height="26" />
-    <circle cx="16" cy="13" r="4.5" fill="#10b981" />
-    <!-- Pulse ring for the green dot -->
-    <circle cx="16" cy="13" r="7.5" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.7">
-      <animate attributeName="r" values="4.5;9;4.5" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <text class="role-badge" x="29" y="17">READY TO BUILD</text>
+  <!-- Right Side: 3D Animated Science / AI Core Landscape -->
+  <!-- 3D Rotating Orbit Rings -->
+  <g class="rotating-ring-1">
+    <ellipse cx="640" cy="150" rx="130" ry="50" fill="none" stroke="url(#glassBorder)" stroke-width="1" stroke-dasharray="8,20" opacity="0.6" />
+    <circle cx="510" cy="150" r="5" fill="#00f2fe" filter="url(#neonGlow)" />
+  </g>
+  <g class="rotating-ring-2">
+    <ellipse cx="640" cy="150" rx="100" ry="38" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="25,10" opacity="0.5" />
+    <circle cx="740" cy="150" r="4" fill="#a855f7" filter="url(#neonGlow)" />
   </g>
 
-  <!-- Name -->
-  <text class="title" x="60" y="130">Dharwin S</text>
-
-  <!-- Subtitle -->
-  <text class="subtitle" x="60" y="168">AI &amp; DATA SCIENCE Student | FULL STACK DEVELOPER</text>
-
-  <!-- Separator Line with glowing gradient -->
-  <rect x="60" y="188" width="380" height="2" fill="url(#accentGrad)" opacity="0.8" />
-
-  <!-- Badges Grid -->
-  <g transform="translate(60, 208)">
-    <!-- Badge 1: AI/ML -->
-    <g transform="translate(0, 0)">
-      <rect class="badge-bg" x="0" y="0" width="70" height="26" />
-      <text font-family="'Fira Code', monospace" font-size="11" font-weight="500" fill="#00f2fe" x="15" y="17">AI/ML</text>
-    </g>
-    <!-- Badge 2: Fullstack -->
-    <g transform="translate(80, 0)">
-      <rect class="badge-bg" x="0" y="0" width="100" height="26" />
-      <text font-family="'Fira Code', monospace" font-size="11" font-weight="500" fill="#8b5cf6" x="14" y="17">Full-Stack</text>
-    </g>
-    <!-- Badge 3: College/Batch -->
-    <g transform="translate(190, 0)">
-      <rect class="badge-bg" x="0" y="0" width="135" height="26" />
-      <!-- Small graduation cap icon or bullet -->
-      <circle cx="15" cy="13" r="3" fill="#f59e0b" />
-      <text font-family="'Fira Code', monospace" font-size="11" font-weight="500" fill="#f59e0b" x="25" y="17">KEC (2023-2027)</text>
-    </g>
+  <!-- Data Flow Lines (Connecting Floating Cubes to Core) -->
+  <g opacity="0.5">
+    <!-- Line to Cube 1 -->
+    <path d="M 640,150 L 530,90" stroke="#00f2fe" stroke-width="1.5" class="pulse-line" />
+    <!-- Line to Cube 2 -->
+    <path d="M 640,150 L 750,100" stroke="#8b5cf6" stroke-width="1.5" class="pulse-line" />
+    <!-- Line to Cube 3 -->
+    <path d="M 640,150 L 640,240" stroke="#fbbf24" stroke-width="1.5" class="pulse-line" />
   </g>
 
-  <!-- Cyber Corners for High-End Look -->
-  <path d="M 12 30 L 12 12 L 30 12" fill="none" stroke="#00f2fe" stroke-width="2.5" opacity="0.7" />
-  <path d="M 818 30 L 818 12 L 800 12" fill="none" stroke="#00f2fe" stroke-width="2.5" opacity="0.7" />
-  <path d="M 12 270 L 12 288 L 30 288" fill="none" stroke="#00f2fe" stroke-width="2.5" opacity="0.7" />
-  <path d="M 818 270 L 818 288 L 800 288" fill="none" stroke="#00f2fe" stroke-width="2.5" opacity="0.7" />
+  <!-- Central Glowing AI Core (3D Cylinder) -->
+  <g class="float-core" transform="translate(640, 150)">
+    <!-- Glow base -->
+    <ellipse cx="0" cy="20" rx="30" ry="12" fill="url(#coreGlow)" filter="url(#neonGlow)" />
+    <!-- 3D cylinder body -->
+    <path d="M -25,-15 A 25,11 0 0,0 25,-15 L 25,20 A 25,11 0 0,1 -25,20 Z" fill="url(#coreSide)" />
+    <!-- 3D cylinder top -->
+    <ellipse cx="0" cy="-15" rx="25" ry="11" fill="url(#coreTop)" />
+    <ellipse cx="0" cy="-15" rx="18" ry="8" fill="#ffffff" opacity="0.3" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- Orbiting 3D Cube 1: Cyan (Above Left) -->
+  <g class="float-cube1" transform="translate(530, 90)">
+    <!-- Top Face -->
+    <polygon points="0,-16 16,-8 0,0 -16,-8" fill="url(#cyanTop)" />
+    <!-- Left Face -->
+    <polygon points="-16,-8 0,0 0,16 -16,8" fill="url(#cyanLeft)" />
+    <!-- Right Face -->
+    <polygon points="0,0 16,-8 16,8 0,16" fill="url(#cyanRight)" />
+    <!-- Hovering Ring below Cube -->
+    <ellipse cx="0" cy="24" rx="16" ry="6" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.4" />
+  </g>
+
+  <!-- Orbiting 3D Cube 2: Purple (Above Right) -->
+  <g class="float-cube2" transform="translate(750, 100)">
+    <!-- Top Face -->
+    <polygon points="0,-14 14,-7 0,0 -14,-7" fill="url(#purpleTop)" />
+    <!-- Left Face -->
+    <polygon points="-14,-7 0,0 0,14 -14,7" fill="url(#purpleLeft)" />
+    <!-- Right Face -->
+    <polygon points="0,0 14,-7 14,7 0,14" fill="url(#purpleRight)" />
+    <!-- Hovering Ring below Cube -->
+    <ellipse cx="0" cy="20" rx="14" ry="5" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.4" />
+  </g>
+
+  <!-- Orbiting 3D Cube 3: Amber/Gold (Below Center) -->
+  <g class="float-cube3" transform="translate(640, 240)">
+    <!-- Top Face -->
+    <polygon points="0,-12 12,-6 0,0 -12,-6" fill="url(#amberTop)" />
+    <!-- Left Face -->
+    <polygon points="-12,-6 0,0 0,12 -12,6" fill="url(#amberLeft)" />
+    <!-- Right Face -->
+    <polygon points="0,0 12,-6 12,6 0,12" fill="url(#amberRight)" />
+    <!-- Hovering Ring below Cube -->
+    <ellipse cx="0" cy="18" rx="12" ry="4.5" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.4" />
+  </g>
+
+  <!-- Technical border overlays to reinforce the 3D grid context -->
+  <path d="M 15,35 L 15,15 L 35,15" fill="none" stroke="#1e2937" stroke-width="1.5" />
+  <path d="M 815,35 L 815,15 L 795,15" fill="none" stroke="#1e2937" stroke-width="1.5" />
+  <path d="M 15,265 L 15,285 L 35,285" fill="none" stroke="#1e2937" stroke-width="1.5" />
+  <path d="M 815,265 L 815,285 L 795,285" fill="none" stroke="#1e2937" stroke-width="1.5" />
 </svg>
