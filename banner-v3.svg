@@ -170,36 +170,30 @@
     </g>
   </g>
 
-  <!-- Right Side: Hand-Crafted Mathematical Fluid Oscilloscope (Data Waves) -->
-  <g transform="translate(480, 0)" opacity="0.85">
+  <!-- Right Side: 3D College Student Studying & Waving Hello -->
+  <g transform="translate(480, 0)">
     <!-- Clean Glass Screen frame -->
     <rect x="30" y="50" width="260" height="240" rx="16" fill="#070b15" fill-opacity="0.4" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" />
-    <!-- Fine Scope Grid overlay -->
-    <g stroke="rgba(255,255,255,0.03)" stroke-width="0.75">
+    
+    <!-- Fine HUD Scope Grid overlay behind the avatar -->
+    <g stroke="rgba(255,255,255,0.02)" stroke-width="0.75">
       <line x1="30" y1="170" x2="290" y2="170" />
       <line x1="160" y1="50" x2="160" y2="290" />
-      <circle cx="160" cy="170" r="40" fill="none" />
-      <circle cx="160" cy="170" r="80" fill="none" />
+      <circle cx="160" cy="170" r="100" fill="none" stroke-dasharray="3,6" />
     </g>
 
-    <g filter="url(#glow)">
-      <!-- Wave 1 (Teal/Cyan) -->
-      <path class="wave-line" stroke="#00f2fe" stroke-dasharray="10, 8" style="animation-duration: 8s;"
-            d="M 30,170 Q 60,110 90,170 T 150,170 T 210,170 T 270,170 T 290,170" />
-      
-      <!-- Wave 2 (Indigo/Purple) -->
-      <path class="wave-line" stroke="#8b5cf6" stroke-dasharray="12, 12" style="animation-duration: 12s; animation-direction: reverse;"
-            d="M 30,170 Q 60,220 90,170 T 150,170 T 210,170 T 270,170 T 290,170" opacity="0.7"/>
+    <!-- Glowing technical frame overlays -->
+    <path d="M 40,65 L 50,65 M 40,65 L 40,75" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.8" />
+    <path d="M 280,65 L 270,65 M 280,65 L 280,75" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.8" />
+    <path d="M 40,275 L 50,275 M 40,275 L 40,265" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.8" />
+    <path d="M 280,275 L 270,275 M 280,275 L 280,265" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.8" />
 
-      <!-- Wave 3 (Pink) -->
-      <path class="wave-line" stroke="#ec4899" stroke-dasharray="6, 6" style="animation-duration: 10s;"
-            d="M 30,150 Q 75,70 120,150 T 210,150 T 290,150" opacity="0.5"/>
-    </g>
+    <!-- 3D Student Avatar Image -->
+    <image href="./student.png" x="35" y="55" width="250" height="230" style="mix-blend-mode: screen;" />
 
-    <!-- Scope readout text -->
-    <text font-family="'Fira Code', monospace" font-size="9" fill="#475569" x="45" y="75">SIG.ANALYZER: v1.0.9</text>
-    <text font-family="'Fira Code', monospace" font-size="9" fill="#00f2fe" x="210" y="75">CH.A: RUN</text>
-    <text font-family="'Fira Code', monospace" font-size="9" fill="#64748b" x="45" y="265">FRQ // 24.81 GHz</text>
+    <!-- HUD text labels -->
+    <text font-family="'Fira Code', monospace" font-size="8.5" fill="#00f2fe" x="45" y="75">[ MODE: STUDYING ]</text>
+    <text font-family="'Fira Code', monospace" font-size="8.5" fill="#f59e0b" x="195" y="75">LIVE: HI! 👋</text>
   </g>
 
   <!-- Bottom Left: "Now Playing" Lofi Audio Widget -->
