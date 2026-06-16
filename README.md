@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./typing-v2.svg" alt="Typing Animation" width="100%" />
+  <img src="./typing-cyberpunk.svg" alt="Typing Animation" width="100%" />
 </p>
 
 <!-- Quick Navigation Bar -->
