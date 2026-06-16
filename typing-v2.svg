@@ -86,7 +86,7 @@
 
     @keyframes type3 {
       0%, 50%, 100% { width: 0; }
-      51.5%, 72% { width: 175px; }
+      51.5%, 72% { width: 150px; }
       73.5%, 75% { width: 0; }
     }
 
@@ -125,7 +125,7 @@
       26.5%, 47% { transform: translateX(200px); }
       48.5%, 50% { transform: translateX(0px); }
 
-      51.5%, 72% { transform: translateX(175px); }
+      51.5%, 72% { transform: translateX(150px); }
       73.5%, 75% { transform: translateX(0px); }
 
       76.5%, 97% { transform: translateX(240px); }
@@ -139,7 +139,7 @@
 
     #rect1 { animation: type1 16s infinite steps(27); }
     #rect2 { animation: type2 16s infinite steps(22); }
-    #rect3 { animation: type3 16s infinite steps(19); }
+    #rect3 { animation: type3 16s infinite steps(16); }
     #rect4 { animation: type4 16s infinite steps(26); }
 
     .group1 { animation: opacity1 16s infinite; }
@@ -179,9 +179,9 @@
       <text x="250" y="34" class="terminal-text typed-text" fill="#8b5cf6" clip-path="url(#clip2)">&quot;Full Stack Developer&quot;</text>
     </g>
 
-    <!-- Text 3: "AI/ML Enthusiast" -->
+    <!-- Text 3: "AI/ML Engineer" -->
     <g class="group3">
-      <text x="250" y="34" class="terminal-text typed-text" fill="#fbbf24" clip-path="url(#clip3)">&quot;AI/ML Enthusiast&quot;</text>
+      <text x="250" y="34" class="terminal-text typed-text" fill="#fbbf24" clip-path="url(#clip3)">&quot;AI/ML Engineer&quot;</text>
     </g>
 
     <!-- Text 4: "Passionate Tech Explorer" -->

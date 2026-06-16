@@ -138,7 +138,7 @@
   <!-- Left Side: Editorial Typography Layout -->
   <g transform="translate(60, 60)">
     <!-- Tech Tag -->
-    <text class="brand-tag" x="0" y="0">FULL-STACK DEVELOPER &amp; ML ENTHUSIAST</text>
+    <text class="brand-tag" x="0" y="0">FULL-STACK DEVELOPER &amp; ML ENGINEER</text>
     
     <!-- Big Editorial Name Title -->
     <text class="brand-name" x="0" y="55">DHARWIN S</text>
