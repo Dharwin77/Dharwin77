@@ -8,9 +8,8 @@
 
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Dharwin77.Dharwin77&left_text=PROFILE%20VIEWS&left_color=%23080e1e&right_color=%235eebd4" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Dharwin77&color=5eebd4&style=flat-square&label=PROFILE+VIEWS&label_color=080e1e" alt="Profile Views" />
 </p>
-
 
 <!-- Social Media Badges -->
 <p align="center">
