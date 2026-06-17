@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 40" width="170" height="40">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#05050a" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .btn-border {
+      stroke: url(#borderGrad);
+      stroke-width: 1.5;
+      animation: pulseBorder 4s infinite alternate;
+    }
+    .btn-text-main {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      fill: #64748b;
+      letter-spacing: 1.5px;
+    }
+    .btn-text-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #f59e0b;
+    }
+    @keyframes pulseBorder {
+      0% { opacity: 0.75; }
+      100% { opacity: 1; filter: drop-shadow(0 0 3px rgba(245, 158, 11, 0.4)); }
+    }
+  </style>
+
+  <!-- Card Body -->
+  <rect x="1" y="1" width="168" height="38" rx="8" fill="url(#bgGrad)" class="btn-border" />
+
+  <!-- Logo (LeetCode Icon) -->
+  <g transform="translate(14, 11)" fill="#f59e0b">
+    <path d="M12.924 7.61a.916.916 0 0 0-1.294 0L7.544 11.7a.916.916 0 1 0 1.295 1.295l4.085-4.085a.916.916 0 0 0 0-1.295z"/>
+    <path d="M16.035 4.5a2.5 2.5 0 0 0-3.535 0L3.924 13.076a2.5 2.5 0 0 0 0 3.535l1.6 1.6a2.5 2.5 0 0 0 3.535 0l8.576-8.576a2.5 2.5 0 0 0 0-3.535l-1.6-1.6zm-1.06 4.596L6.4 17.67a1 1 0 0 1-1.414 0l-1.6-1.6a1 1 0 0 1 0-1.414l8.576-8.576a1 1 0 0 1 1.414 0l1.6 1.6a1 1 0 0 1 0 1.414z"/>
+  </g>
+
+  <!-- Labels -->
+  <text x="38" y="17" class="btn-text-main">LEETCODE</text>
+  <text x="38" y="29" class="btn-text-sub">dharwins</text>
+</svg>

@@ -8,24 +8,25 @@
 
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Dharwin77&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Dharwin77&color=5eebd4&style=flat-square&label=PROFILE+VIEWS&label_color=080e1e" alt="Profile Views" />
 </p>
 
 <!-- Social Media Badges -->
 <p align="center">
   <a href="https://dharwin.tech/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-dharwin.tech-00f2fe?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Portfolio" />
+    <img src="./social-portfolio.svg" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/dharwin-s" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-dharwin--s-8b5cf6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./social-linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/dharwins/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-dharwins-f59e0b?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    <img src="./social-leetcode.svg" alt="LeetCode" />
   </a>
   <a href="mailto:dharwinsangamani@gmail.com">
-    <img src="https://img.shields.io/badge/Email-dharwinsangamani%40gmail.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="./social-email.svg" alt="Email" />
   </a>
 </p>
+
 
 ---
 
