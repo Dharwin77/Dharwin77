@@ -6,15 +6,6 @@
   <img src="./typing-cyberpunk.svg" alt="Typing Animation" width="100%" />
 </p>
 
-<!-- Quick Navigation Bar -->
-<p align="center">
-  <b><a href="#-about-me">About Me</a></b> • 
-  <b><a href="#-tech-stack">Tech Stack</a></b> • 
-  <b><a href="#-featured-projects">Projects</a></b> • 
-  <b><a href="#-achievements--certifications">Achievements</a></b> • 
-  <b><a href="#-metrics--analytics">Metrics</a></b> • 
-  <b><a href="#-connect-with-me">Connect</a></b>
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Dharwin77&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
