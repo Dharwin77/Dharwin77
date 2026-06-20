@@ -86,7 +86,7 @@
       fill: url(#bgGradient);
     }
 
-    /* Floor & Ceiling Grid Styles */
+    /* Floor and Ceiling Grid Styles */
     .grid-line {
       stroke: #121829;
       stroke-width: 1;
@@ -118,7 +118,7 @@
     .float-2 { animation: bob2 6.5s ease-in-out infinite; }
     .float-3 { animation: bob3 5.8s ease-in-out infinite; }
 
-    /* Card Group Base Classes & Base Transforms */
+    /* Card Group Base Classes and Base Transforms */
     .card-group {
       transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1), filter 0.45s ease;
       transform-box: fill-box;
@@ -192,7 +192,7 @@
       opacity: 0.75;
     }
 
-    /* Pedestal & Core */
+    /* Pedestal and Core */
     .pedestal {
       fill: #090e1a;
       stroke: #1e293b;
