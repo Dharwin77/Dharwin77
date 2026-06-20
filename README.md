@@ -62,73 +62,43 @@ Mission     : Engineering scalable software to solve complex tasks
 
 My toolbelt covers frontend design, server architectures, databases, and AI modeling frameworks.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=800&size=22&duration=3000&pause=1000&color=00f2fe&width=500&height=50&lines=Full-Stack+%26+AI%2FML+Toolbelt;Building+Intelligent+Web+Systems;Engineering+Data+Pipelines" alt="Tech Stack Header" />
-</p>
+> [!IMPORTANT]
+> ### ![AI & Core Science](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=9e7efb&width=350&height=40&lines=%F0%9F%A4%96+AI+%26+Core+Science;%F0%9F%90%8D+Python+%26+Java+Core;%F0%9F%A7%A0+ML+%26+Deep+Learning)
+> <br/>
+>
+> [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Dharwin77)
+> [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Dharwin77)
+> [![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://github.com/Dharwin77)
+> [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/Dharwin77)
+> [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/Dharwin77)
+> [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://github.com/Dharwin77)
+> [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/Dharwin77)
 
-<table width="100%">
-<tr>
-<td align="center" width="12%" valign="middle">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="45" height="45" />
-</td>
-<td width="38%" valign="middle">
-<b>Python / AI Engine</b><br/>
-<code>████████████████████ 100%</code><br/>
-<small>TensorFlow, OpenCV, Data Science</small>
-</td>
-<td align="center" width="12%" valign="middle">
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="45" height="45" />
-</td>
-<td width="38%" valign="middle">
-<b>React / Front-End</b><br/>
-<code>███████████████████░ 95%</code><br/>
-<small>Highly Interactive Interfaces &amp; Web Apps</small>
-</td>
-</tr>
-<tr>
-<td align="center" valign="middle">
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="45" height="45" />
-</td>
-<td valign="middle">
-<b>TypeScript / JS Core</b><br/>
-<code>██████████████████░░ 90%</code><br/>
-<small>Type-Safe Modern Web Architectures</small>
-</td>
-<td align="center" valign="middle">
-<img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="45" height="45" />
-</td>
-<td valign="middle">
-<b>Java / System Logic</b><br/>
-<code>████████████████░░░░ 80%</code><br/>
-<small>Object-Oriented Core Engineering</small>
-</td>
-</tr>
-<tr>
-<td align="center" valign="middle">
-<img src="https://techstack-generator.vercel.app/mongodb-icon.svg" alt="MongoDB" width="45" height="45" />
-</td>
-<td valign="middle">
-<b>MongoDB / Databases</b><br/>
-<code>█████████████████░░░ 85%</code><br/>
-<small>Database Schema Design &amp; Optimization</small>
-</td>
-<td align="center" valign="middle">
-<img src="https://techstack-generator.vercel.app/git-icon.svg" alt="Git" width="45" height="45" />
-</td>
-<td valign="middle">
-<b>Git / DevOps</b><br/>
-<code>██████████████████░░ 90%</code><br/>
-<small>Version Control, CI/CD, Azure Cloud</small>
-</td>
-</tr>
-</table>
+> [!NOTE]
+> ### ![Web Engineering](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=58a6ff&width=350&height=40&lines=%F0%9F%8C%90+Web+Engineering;%E2%9A%9B%EF%B8%8F+React+%26+NodeJS;%F0%9F%92%BE+Database+Architectures)
+> <br/>
+>
+> [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Dharwin77)
+> [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Dharwin77)
+> [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/Dharwin77)
+> [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/Dharwin77)
+> [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://github.com/Dharwin77)
+> [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://github.com/Dharwin77)
+> [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Dharwin77)
+> [![Express](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)](https://github.com/Dharwin77)
+> [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/Dharwin77)
+> [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/Dharwin77)
+> [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://github.com/Dharwin77)
+> [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://github.com/Dharwin77)
 
-<br/>
-<p align="center">
-  <b>Support Technologies & Frameworks:</b><br/>
-  <code>C / C++</code> • <code>HTML5 &amp; CSS3</code> • <code>TailwindCSS</code> • <code>Express.js</code> • <code>FastAPI</code> • <code>Firebase</code> • <code>Supabase</code> • <code>Figma</code> • <code>Pandas</code> • <code>Scikit-Learn</code> • <code>Azure AI</code>
-</p>
-
+> [!TIP]
+> ### ![DevOps & Tools](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=56f3a7&width=350&height=40&lines=%F0%9F%9B%A0%EF%B8%8F+DevOps+%26+Tools;%E2%98%81%EF%B8%8F+Cloud+Deployments;%F0%9F%8E%A8+UI%2FUX+Design)
+> <br/>
+>
+> [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://github.com/Dharwin77)
+> [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dharwin77)
+> [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://github.com/Dharwin77)
+> [![Azure AI Services](https://img.shields.io/badge/Azure_AI_Services-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dharwin77)
 
 
 ---
