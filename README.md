@@ -172,6 +172,12 @@ A showcase of applications showing ML integrations with robust web frameworks.
 
 ## ─── 🏆 ACHIEVEMENTS & CERTIFICATIONS ───
 
+> [!NOTE]
+> ### 🌌 Interactive AI Knowledge Graph
+> I have designed a futuristic neural network constellation map visualizing my achievements and certifications.
+>
+> 🚀 **[Explore Interactive Constellation Map (HTML Preview)](./constellation_preview.html)** • **[View React Source Component](./ConstellationMap.jsx)**
+
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
