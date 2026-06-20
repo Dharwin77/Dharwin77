@@ -82,8 +82,6 @@
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&amp;family=Fira+Code:wght@500&amp;display=swap');
-
     .bg-grad {
       fill: url(#bgGradient);
     }
@@ -333,13 +331,13 @@
       <path d="M 49 49 a 4.5 4.5 0 0 1 4.5 -4.5 a 6.5 6.5 0 0 1 12.5 -2.5 a 5.5 5.5 0 0 1 5.5 5.5 a 4.5 4.5 0 0 1 -4.5 4.5 H 53.5 a 4.5 4.5 0 0 1 -4.5 -3 Z" fill="none" stroke="#00f2fe" stroke-width="1.8" stroke-linejoin="round" />
 
       <!-- Exhibition Information -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MICROSOFT AZURE</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">AI ENGINEER</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Associate (AI-102)</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MICROSOFT AZURE</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">AI ENGINEER</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">Associate (AI-102)</text>
       
       <!-- Floating Glass metal badge indicator -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 01 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 01 ]</text>
     </g>
   </g>
 
@@ -367,13 +365,13 @@
       <path d="M 60 28 C 65 35 68 45 60 56 C 52 45 55 35 60 28 Z M 60 28 V 56" fill="none" stroke="#56f3a7" stroke-width="1.8" stroke-linecap="round" />
 
       <!-- Info -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MONGODB CORE</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#56f3a7" letter-spacing="1">DEVELOPER</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Certified Associate</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MONGODB CORE</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#56f3a7" letter-spacing="1">DEVELOPER</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">Certified Associate</text>
 
       <!-- Exhibition Label -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#56f3a7" font-weight="bold">[ EXHIBIT 02 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#56f3a7" font-weight="bold">[ EXHIBIT 02 ]</text>
     </g>
   </g>
 
@@ -401,13 +399,13 @@
       <path d="M 48 35 h 24 v 5 H 48 Z M 48 43 h 24 v 5 H 48 Z M 48 51 h 24 v 5 H 48 Z" fill="none" stroke="#fbbf24" stroke-width="1.8" />
 
       <!-- Info -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">ORACLE APEX</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#fbbf24" letter-spacing="1">PROFESSIONAL</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Cloud Databases</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">ORACLE APEX</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#fbbf24" letter-spacing="1">PROFESSIONAL</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">Cloud Databases</text>
 
       <!-- Exhibition Label -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#fbbf24" font-weight="bold">[ EXHIBIT 03 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#fbbf24" font-weight="bold">[ EXHIBIT 03 ]</text>
     </g>
   </g>
 
@@ -438,13 +436,13 @@
       <path d="M 60 28 L 65 37 L 75 37 L 67 43 L 70 52 L 60 46 L 50 52 L 53 43 L 45 37 L 55 37 Z" fill="none" stroke="#ff00a0" stroke-width="1.5" stroke-linejoin="round" />
 
       <!-- Info -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">RUBY PROJECT EXPO</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#ff00a0" letter-spacing="1">TOP SHORTLIST</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">AI Architectural Tool</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">RUBY PROJECT EXPO</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#ff00a0" letter-spacing="1">TOP SHORTLIST</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">AI Architectural Tool</text>
 
       <!-- Exhibition Label -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#ff00a0" font-weight="bold">[ EXHIBIT 04 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#ff00a0" font-weight="bold">[ EXHIBIT 04 ]</text>
     </g>
   </g>
 
@@ -473,13 +471,13 @@
       <path d="M 54 39 L 51 41 L 54 43 M 66 39 L 69 41 L 66 43 M 62 37 L 58 45" stroke="#ffffff" stroke-width="1" stroke-linecap="round" fill="none" />
 
       <!-- Info -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">HACKSPHERE '25</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#8b5cf6" letter-spacing="1">PROTOTYPE WIN</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">24h Rapid Integration</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">HACKSPHERE '25</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#8b5cf6" letter-spacing="1">PROTOTYPE WIN</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">24h Rapid Integration</text>
 
       <!-- Exhibition Label -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#8b5cf6" font-weight="bold">[ EXHIBIT 05 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#8b5cf6" font-weight="bold">[ EXHIBIT 05 ]</text>
     </g>
   </g>
 
@@ -512,13 +510,13 @@
       <line x1="54" y1="47" x2="66" y2="47" stroke="#00f2fe" stroke-width="1.2" />
 
       <!-- Info -->
-      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">GENERATIVE AI</text>
-      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">RESEARCH AGENT</text>
-      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">LLM Tuning &amp; Agents (2025)</text>
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">GENERATIVE AI</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">RESEARCH AGENT</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit, sans-serif" font-size="8" fill="#94a3b8">LLM Tuning &amp; Agents (2025)</text>
 
       <!-- Exhibition Label -->
       <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 06 ]</text>
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code, monospace" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 06 ]</text>
     </g>
   </g>
 
