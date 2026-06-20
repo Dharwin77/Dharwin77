@@ -62,44 +62,48 @@ Mission     : Engineering scalable software to solve complex tasks
 
 My toolbelt covers frontend design, server architectures, databases, and AI modeling frameworks.
 
-> [!IMPORTANT]
-> ### ![AI & Core Science](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=9e7efb&width=350&height=40&lines=%F0%9F%A4%96+AI+%26+Core+Science;%F0%9F%90%8D+Python+%26+Java+Core;%F0%9F%A7%A0+ML+%26+Deep+Learning)
-> <br/>
->
-> [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Dharwin77)
-> [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Dharwin77)
-> [![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://github.com/Dharwin77)
-> [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/Dharwin77)
-> [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/Dharwin77)
-> [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://github.com/Dharwin77)
-> [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/Dharwin77)
-
-> [!NOTE]
-> ### ![Web Engineering](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=58a6ff&width=350&height=40&lines=%F0%9F%8C%90+Web+Engineering;%E2%9A%9B%EF%B8%8F+React+%26+NodeJS;%F0%9F%92%BE+Database+Architectures)
-> <br/>
->
-> [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Dharwin77)
-> [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Dharwin77)
-> [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/Dharwin77)
-> [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/Dharwin77)
-> [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://github.com/Dharwin77)
-> [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://github.com/Dharwin77)
-> [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Dharwin77)
-> [![Express](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)](https://github.com/Dharwin77)
-> [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/Dharwin77)
-> [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/Dharwin77)
-> [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://github.com/Dharwin77)
-> [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://github.com/Dharwin77)
-
-> [!TIP]
-> ### ![DevOps & Tools](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=56f3a7&width=350&height=40&lines=%F0%9F%9B%A0%EF%B8%8F+DevOps+%26+Tools;%E2%98%81%EF%B8%8F+Cloud+Deployments;%F0%9F%8E%A8+UI%2FUX+Design)
-> <br/>
->
-> [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://github.com/Dharwin77)
-> [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dharwin77)
-> [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://github.com/Dharwin77)
-> [![Azure AI Services](https://img.shields.io/badge/Azure_AI_Services-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dharwin77)
-
+<table width="100%">
+  <tr>
+    <td width="30%"><b>💻 Programming Core</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,py,c" alt="Programming Core" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><b>🌐 Frontend Engineering</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind" alt="Frontend Engineering" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><b>⚙️ Backend &amp; Servers</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" alt="Backend &amp; Servers" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><b>💾 Database Architectures</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase" alt="Database Architectures" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><b>🤖 Machine Learning &amp; AI</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=numpy,pandas,tensorflow,opencv" alt="ML &amp; AI" /></a>
+      <br/>
+      <code>Scikit-Learn</code> • <code>Matplotlib</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><b>🛠️ DevOps &amp; Design</b></td>
+    <td>
+      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,figma" alt="DevOps &amp; Design" /></a>
+      <br/>
+      <code>Azure AI Services</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -172,22 +176,26 @@ A showcase of applications showing ML integrations with robust web frameworks.
 
 ## ─── 🏆 ACHIEVEMENTS & CERTIFICATIONS ───
 
-<p align="center">
-  <img src="./achievements-gallery.svg?v=2" alt="Achievements &amp; Certifications Virtual Gallery" width="100%" />
-</p>
-
-<details>
-  <summary><b>📜 View Plain Text Achievements &amp; Certifications</b></summary>
-  <br/>
-
-*   🥇 **Generative AI Internship (2025):** Built and deployed fine-tuned LLM agents.
-*   💻 **HackSphere '25 Hackathon:** Developed fully functioning prototype integrations in a 24h hackathon.
-*   🔬 **Ruby Year Project Expo 2025:** Top-shortlisted project for AI architectural tools.
-*   ☁️ **Microsoft Azure AI Engineer Associate (AI-102)**
-*   🍃 **MongoDB Certified Associate Developer**
-*   📊 **Oracle APEX Professional**
-</details>
-
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🥇 Key Achievements</h4>
+      <ul>
+        <li>💼 <b>Generative AI Internship</b> (2025) - Built and deployed fine-tuned LLM agents.</li>
+        <li>💻 <b>HackSphere '25</b> - Developed fully functioning prototype integrations in a 24h hackathon.</li>
+        <li>🔬 <b>Ruby Year Project Expo 2025</b> - Top-shortlisted project for AI architectural tools.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📜 Professional Certifications</h4>
+      <ul>
+        <li>☁️ <b>Microsoft Azure AI Engineer Associate (AI-102)</b></li>
+        <li>🍃 <b>MongoDB Certified Associate Developer</b></li>
+        <li>📊 <b>Oracle APEX Professional</b></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
