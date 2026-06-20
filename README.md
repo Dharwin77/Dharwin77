@@ -68,88 +68,57 @@ My toolbelt covers frontend design, server architectures, databases, and AI mode
 
 <table width="100%">
 <tr>
-<td width="33%" align="center" valign="top">
-<h3>🤖 AI & Core Science</h3>
-<br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-</a>
-<br/>
-<code>AI Engine</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-</a>
-<br/>
-<code>Deep Learning</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-</a>
-<br/>
-<code>Computer Vision</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-</a>
-<br/>
-<code>Vector Math</code>
+<td align="center" width="12%" valign="middle">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="45" height="45" />
 </td>
-
-<td width="34%" align="center" valign="top">
-<h3>🌐 Web Systems</h3>
-<br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-</a>
-<br/>
-<code>UI Library</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-</a>
-<br/>
-<code>API Backend</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-</a>
-<br/>
-<code>Server Runtime</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-</a>
-<br/>
-<code>DB & Auth API</code>
+<td width="38%" valign="middle">
+<b>Python / AI Engine</b><br/>
+<code>████████████████████ 100%</code><br/>
+<small>TensorFlow, OpenCV, Data Science</small>
 </td>
-
-<td width="33%" align="center" valign="top">
-<h3>🛠️ DevOps & Tools</h3>
-<br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</a>
-<br/>
-<code>Version Control</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<br/>
-<code>Collab Platform</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-</a>
-<br/>
-<code>UX/UI Design</code>
-<br/><br/>
-<a href="https://github.com/Dharwin77">
-<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-</a>
-<br/>
-<code>AI & Cloud Services</code>
+<td align="center" width="12%" valign="middle">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="45" height="45" />
+</td>
+<td width="38%" valign="middle">
+<b>React / Front-End</b><br/>
+<code>███████████████████░ 95%</code><br/>
+<small>Highly Interactive Interfaces &amp; Web Apps</small>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="45" height="45" />
+</td>
+<td valign="middle">
+<b>TypeScript / JS Core</b><br/>
+<code>██████████████████░░ 90%</code><br/>
+<small>Type-Safe Modern Web Architectures</small>
+</td>
+<td align="center" valign="middle">
+<img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="45" height="45" />
+</td>
+<td valign="middle">
+<b>Java / System Logic</b><br/>
+<code>████████████████░░░░ 80%</code><br/>
+<small>Object-Oriented Core Engineering</small>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+<img src="https://techstack-generator.vercel.app/mongodb-icon.svg" alt="MongoDB" width="45" height="45" />
+</td>
+<td valign="middle">
+<b>MongoDB / Databases</b><br/>
+<code>█████████████████░░░ 85%</code><br/>
+<small>Database Schema Design &amp; Optimization</small>
+</td>
+<td align="center" valign="middle">
+<img src="https://techstack-generator.vercel.app/git-icon.svg" alt="Git" width="45" height="45" />
+</td>
+<td valign="middle">
+<b>Git / DevOps</b><br/>
+<code>██████████████████░░ 90%</code><br/>
+<small>Version Control, CI/CD, Azure Cloud</small>
 </td>
 </tr>
 </table>
@@ -157,7 +126,7 @@ My toolbelt covers frontend design, server architectures, databases, and AI mode
 <br/>
 <p align="center">
   <b>Support Technologies & Frameworks:</b><br/>
-  <code>Java</code> • <code>C</code> • <code>JavaScript</code> • <code>TypeScript</code> • <code>HTML5</code> • <code>CSS3</code> • <code>TailwindCSS</code> • <code>Express.js</code> • <code>MongoDB</code> • <code>Firebase</code> • <code>Pandas</code>
+  <code>C / C++</code> • <code>HTML5 &amp; CSS3</code> • <code>TailwindCSS</code> • <code>Express.js</code> • <code>FastAPI</code> • <code>Firebase</code> • <code>Supabase</code> • <code>Figma</code> • <code>Pandas</code> • <code>Scikit-Learn</code> • <code>Azure AI</code>
 </p>
 
 
