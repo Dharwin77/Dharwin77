@@ -34,11 +34,27 @@
 
 I am an **AI & Data Science Student** and **Full Stack Developer** specializing in building smart web systems and machine learning pipelines. My focus is on writing clean, optimized, and performant code that bridges data-driven models with clean user interfaces.
 
-* 🎓 **Academic Journey:** Pursuing B.Tech in **Artificial Intelligence and Data Science** (2023 - 2027)
-* 🏫 **Institution:** **Kongu Engineering College**, Erode, India
-* 📈 **Performance Record:** Maintaining a strong cumulative CGPA of **8.11**
-* 🧠 **Specialized Focus:** Generative AI solutions, predictive data modeling, real-time architectures, and interactive dashboards.
-* 🚀 **Core Goal:** To engineer scalable software that solves modern, complex analytical tasks.
+<details open>
+  <summary><b>⚡ developer_profile.sh --status</b></summary>
+  <br/>
+
+```yaml
+Status      : Active 🟢
+Academic    : B.Tech in AI & Data Science (2023 - 2027)
+Institution : Kongu Engineering College, Erode, India
+CGPA        : 8.11 / 10.0
+Mission     : Engineering scalable software to solve complex tasks
+```
+</details>
+
+<details>
+  <summary><b>🧠 Specialized Focus & Focus Areas</b></summary>
+  
+> [!NOTE]
+> * **Generative AI:** Building LLM agent workflows, fine-tuning, and RAG architectures.
+> * **Data Modeling:** Predictive data modeling, pipeline design, and OpenCV computer vision.
+> * **Web Systems:** Designing real-time Socket.io systems, FastAPI backends, and React interfaces.
+</details>
 
 ---
 
