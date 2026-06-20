@@ -64,43 +64,63 @@ My toolbelt covers frontend design, server architectures, databases, and AI mode
 
 <table width="100%">
   <tr>
-    <td width="30%"><b>💻 Programming Core</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,py,c" alt="Programming Core" /></a>
+    <!-- Column 1: AI, ML & Core -->
+    <td width="50%" valign="top" align="center">
+      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=ff00a0&width=300&height=40&lines=🤖+AI+%26+Core+Science;🐍+Python+%26+Java+Core;🧠+ML+%26+Deep+Learning" alt="AI &amp; Core Science" />
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+      </a>
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+      </a>
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+      </a>
+    </td>
+    
+    <!-- Column 2: Web & Database -->
+    <td width="50%" valign="top" align="center">
+      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=00f2fe&width=300&height=40&lines=🌐+Web+Engineering;⚛️+React+%26+NodeJS;💾+Database+Architectures" alt="Web Engineering" />
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      </a>
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      </a>
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+      </a>
     </td>
   </tr>
+  
+  <!-- Row 2: DevOps & Infrastructure -->
   <tr>
-    <td width="30%"><b>🌐 Frontend Engineering</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind" alt="Frontend Engineering" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="30%"><b>⚙️ Backend &amp; Servers</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" alt="Backend &amp; Servers" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="30%"><b>💾 Database Architectures</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase" alt="Database Architectures" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="30%"><b>🤖 Machine Learning &amp; AI</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=numpy,pandas,tensorflow,opencv" alt="ML &amp; AI" /></a>
+    <td colspan="2" align="center" valign="top">
       <br/>
-      <code>Scikit-Learn</code> • <code>Matplotlib</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="30%"><b>🛠️ DevOps &amp; Design</b></td>
-    <td>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,figma" alt="DevOps &amp; Design" /></a>
-      <br/>
-      <code>Azure AI Services</code>
+      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=8b5cf6&width=300&height=40&lines=🛠️+DevOps+%26+Tools;☁️+Cloud+Deployments;🎨+UI%2FUX+Design" alt="DevOps &amp; Tools" />
+      <br/><br/>
+      <a href="https://github.com/Dharwin77">
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+        <img src="https://img.shields.io/badge/Azure_AI_Services-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure AI" />
+      </a>
     </td>
   </tr>
 </table>
