@@ -79,17 +79,6 @@
     <clipPath id="ceiling-clip">
       <polygon points="0,80 400,210 800,80 800,0 0,0" />
     </clipPath>
-
-    <!-- Blur Filters for SVG 1.1 Compatibility -->
-    <filter id="blur-shadow">
-      <feGaussianBlur stdDeviation="6" />
-    </filter>
-    <filter id="blur-glow-large">
-      <feGaussianBlur stdDeviation="40" />
-    </filter>
-    <filter id="blur-glow-medium">
-      <feGaussianBlur stdDeviation="30" />
-    </filter>
   </defs>
 
   <style>
@@ -288,8 +277,8 @@
   </g>
 
   <!-- Ambient background glow in the center corridor -->
-  <circle cx="400" cy="225" r="160" fill="#8b5cf6" opacity="0.08" filter="url(#blur-glow-large)" />
-  <circle cx="400" cy="225" r="90" fill="#00f2fe" opacity="0.05" filter="url(#blur-glow-medium)" />
+  <circle cx="400" cy="225" r="160" fill="#8b5cf6" opacity="0.08" filter="blur(40px)" />
+  <circle cx="400" cy="225" r="90" fill="#00f2fe" opacity="0.05" filter="blur(30px)" />
 
   <!-- Center Holographic Exhibition Core -->
   <g>
@@ -322,7 +311,7 @@
     <!-- Card Group -->
     <g class="left-front card-group">
       <!-- Floor Shadow (Perspective Oval) -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" transform="translate(0, 0)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" transform="translate(0, 0)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-azure)" class="spotlight" />
@@ -357,7 +346,7 @@
     <!-- Card Group -->
     <g class="left-middle card-group">
       <!-- Shadow -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-mongo)" class="spotlight" />
@@ -391,7 +380,7 @@
     <!-- Card Group -->
     <g class="left-back card-group">
       <!-- Shadow -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-oracle)" class="spotlight" />
@@ -428,7 +417,7 @@
     <!-- Card Group -->
     <g class="right-back card-group">
       <!-- Shadow -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-ruby)" class="spotlight" />
@@ -462,7 +451,7 @@
     <!-- Card Group -->
     <g class="right-middle card-group">
       <!-- Shadow -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-hack)" class="spotlight" />
@@ -497,7 +486,7 @@
     <!-- Card Group -->
     <g class="right-front card-group">
       <!-- Shadow -->
-      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="url(#blur-shadow)" />
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
       
       <!-- Backdrop Spotlight Glow -->
       <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-intern)" class="spotlight" />
