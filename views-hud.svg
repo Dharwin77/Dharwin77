@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50" width="280" height="50">
+  <defs>
+    <!-- Dark HUD Background Gradient -->
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02080a" />
+      <stop offset="100%" stop-color="#051218" />
+    </linearGradient>
+
+    <!-- Glowing Cyan HUD Border -->
+    <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Radar Grid Pattern -->
+    <pattern id="radarGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="10" fill="none" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.04" />
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.03" />
+      <line x1="10" y1="0" x2="10" y2="20" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.03" />
+    </pattern>
+
+    <!-- Radar Sweep Glow Line Gradient -->
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Hologram Glow Filter -->
+    <filter id="holoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Fira+Code:wght@400;600&amp;display=swap');
+
+    .card {
+      transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .hud-text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 11px;
+      fill: #00f2fe;
+      letter-spacing: 1px;
+      filter: drop-shadow(0 0 2px rgba(0, 242, 254, 0.4));
+    }
+
+    .telemetry-text {
+      font-family: 'Fira Code', monospace;
+      font-size: 7px;
+      font-weight: 600;
+      fill: #00f2fe;
+      fill-opacity: 0.55;
+    }
+  </style>
+
+  <g class="card">
+    <!-- HUD Card Frame -->
+    <rect x="5" y="5" width="270" height="40" rx="3" fill="url(#hudBg)" stroke="url(#hudBorder)" stroke-width="1" />
+
+    <!-- Radar scope grid background -->
+    <rect x="5" y="5" width="270" height="40" rx="3" fill="url(#radarGrid)" />
+
+    <!-- Scanning Sweep Line -->
+    <rect x="5" y="6" width="25" height="38" fill="url(#sweepGrad)">
+      <animate attributeName="x" values="5;250;5" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Radar Scope circular indicator (rotating crosshair) -->
+    <g transform="translate(22, 25)">
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#00f2fe" stroke-width="0.75" stroke-opacity="0.3" stroke-dasharray="2,2" />
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.2" />
+      <!-- Glowing sweep center dot -->
+      <circle cx="0" cy="0" r="1" fill="#00f2fe" filter="url(#holoGlow)" />
+      <!-- Crosshairs -->
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.4">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="-8" x2="0" y2="8" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.4">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- Diagnostic Subtexts -->
+    <text x="42" y="19" class="telemetry-text">SYS_STAT: ON_LINE</text>
+
+    <!-- Monospace Label -->
+    <text x="42" y="34" class="hud-text">&gt; TRAFFIC_CNT</text>
+
+    <!-- Nested View Count Badge -->
+    <g transform="translate(170, 16)">
+      <!-- Tactical border decoration -->
+      <rect x="-2" y="-2" width="92" height="22" rx="1" fill="none" stroke="#00f2fe" stroke-width="0.75" stroke-opacity="0.4" stroke-dasharray="2,2" />
+      <image href="https://komarev.com/ghpvc/?username=Dharwin77&amp;color=00f2fe&amp;style=flat-square&amp;label=VIEWS&amp;label_color=02080a" x="0" y="0" width="88" height="18" />
+    </g>
+  </g>
+</svg>
