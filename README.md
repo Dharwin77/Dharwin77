@@ -62,68 +62,44 @@ Mission     : Engineering scalable software to solve complex tasks
 
 My toolbelt covers frontend design, server architectures, databases, and AI modeling frameworks.
 
-<table width="100%">
-  <tr>
-    <!-- Column 1: AI, ML & Core -->
-    <td width="50%" valign="top" align="center">
-      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=ff00a0&width=300&height=40&lines=🤖+AI+%26+Core+Science;🐍+Python+%26+Java+Core;🧠+ML+%26+Deep+Learning" alt="AI &amp; Core Science" />
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
-      </a>
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-      </a>
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-      </a>
-    </td>
-    
-    <!-- Column 2: Web & Database -->
-    <td width="50%" valign="top" align="center">
-      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=00f2fe&width=300&height=40&lines=🌐+Web+Engineering;⚛️+React+%26+NodeJS;💾+Database+Architectures" alt="Web Engineering" />
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-      </a>
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      </a>
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
-      </a>
-    </td>
-  </tr>
-  
-  <!-- Row 2: DevOps & Infrastructure -->
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <br/>
-      <img src="https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=18&duration=3000&pause=1000&color=8b5cf6&width=300&height=40&lines=🛠️+DevOps+%26+Tools;☁️+Cloud+Deployments;🎨+UI%2FUX+Design" alt="DevOps &amp; Tools" />
-      <br/><br/>
-      <a href="https://github.com/Dharwin77">
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
-        <img src="https://img.shields.io/badge/Azure_AI_Services-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure AI" />
-      </a>
-    </td>
-  </tr>
-</table>
+> [!IMPORTANT]
+> ### ![AI & Core Science](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=9e7efb&width=350&height=40&lines=%F0%9F%A4%96+AI+%26+Core+Science;%F0%9F%90%8D+Python+%26+Java+Core;%F0%9F%A7%A0+ML+%26+Deep+Learning)
+> <br/>
+>
+> [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Dharwin77)
+> [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://github.com/Dharwin77)
+> [![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://github.com/Dharwin77)
+> [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/Dharwin77)
+> [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/Dharwin77)
+> [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://github.com/Dharwin77)
+> [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://github.com/Dharwin77)
+
+> [!NOTE]
+> ### ![Web Engineering](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=58a6ff&width=350&height=40&lines=%F0%9F%8C%90+Web+Engineering;%E2%9A%9B%EF%B8%8F+React+%26+NodeJS;%F0%9F%92%BE+Database+Architectures)
+> <br/>
+>
+> [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Dharwin77)
+> [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Dharwin77)
+> [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/Dharwin77)
+> [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/Dharwin77)
+> [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://github.com/Dharwin77)
+> [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://github.com/Dharwin77)
+> [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://github.com/Dharwin77)
+> [![Express](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)](https://github.com/Dharwin77)
+> [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/Dharwin77)
+> [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/Dharwin77)
+> [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://github.com/Dharwin77)
+> [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://github.com/Dharwin77)
+
+> [!TIP]
+> ### ![DevOps & Tools](https://readme-typing-svg.demolab.com/?font=Outfit&weight=700&size=20&duration=3000&pause=1000&color=56f3a7&width=350&height=40&lines=%F0%9F%9B%A0%EF%B8%8F+DevOps+%26+Tools;%E2%98%81%EF%B8%8F+Cloud+Deployments;%F0%9F%8E%A8+UI%2FUX+Design)
+> <br/>
+>
+> [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://github.com/Dharwin77)
+> [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Dharwin77)
+> [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://github.com/Dharwin77)
+> [![Azure AI Services](https://img.shields.io/badge/Azure_AI_Services-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)](https://github.com/Dharwin77)
+
 
 ---
 
