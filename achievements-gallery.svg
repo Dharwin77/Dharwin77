@@ -1,0 +1,525 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0b102b" />
+      <stop offset="60%" stop-color="#050814" />
+      <stop offset="100%" stop-color="#020307" />
+    </radialGradient>
+
+    <!-- Hologram Pedestal Gradients -->
+    <linearGradient id="coreBeamGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#8b5cf6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="coreGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Spotlight Gradients -->
+    <radialGradient id="spotlight-azure" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotlight-mongo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#56f3a7" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#56f3a7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotlight-oracle" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotlight-ruby" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff00a0" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#ff00a0" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotlight-hack" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="spotlight-intern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Border Gradients -->
+    <linearGradient id="border-azure" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0089d6" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+    <linearGradient id="border-mongo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ea94b" />
+      <stop offset="100%" stop-color="#56f3a7" />
+    </linearGradient>
+    <linearGradient id="border-oracle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="border-ruby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00a0" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <linearGradient id="border-hack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ff00a0" />
+    </linearGradient>
+    <linearGradient id="border-intern" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Perspective Clips -->
+    <clipPath id="floor-clip">
+      <polygon points="0,370 400,240 800,370 800,450 0,450" />
+    </clipPath>
+    <clipPath id="ceiling-clip">
+      <polygon points="0,80 400,210 800,80 800,0 0,0" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&amp;family=Fira+Code:wght@500&amp;display=swap');
+
+    .bg-grad {
+      fill: url(#bgGradient);
+    }
+
+    /* Floor & Ceiling Grid Styles */
+    .grid-line {
+      stroke: #121829;
+      stroke-width: 1;
+    }
+    .grid-line-glow {
+      stroke: #1e293b;
+      stroke-width: 1.5;
+      opacity: 0.4;
+    }
+
+    /* Floating Keyframes */
+    @keyframes bob1 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes bob2 {
+      0% { transform: translateY(-4px); }
+      50% { transform: translateY(3px); }
+      100% { transform: translateY(-4px); }
+    }
+    @keyframes bob3 {
+      0% { transform: translateY(-2px); }
+      50% { transform: translateY(-9px); }
+      100% { transform: translateY(-2px); }
+    }
+
+    .float-1 { animation: bob1 5s ease-in-out infinite; }
+    .float-2 { animation: bob2 6.5s ease-in-out infinite; }
+    .float-3 { animation: bob3 5.8s ease-in-out infinite; }
+
+    /* Card Group Base Classes & Base Transforms */
+    .card-group {
+      transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1), filter 0.45s ease;
+      transform-box: fill-box;
+      cursor: pointer;
+    }
+
+    /* Left Wall Receding transforms */
+    .left-front {
+      transform: translate(35px, 110px) skewY(10deg) scale(0.95);
+      transform-origin: top left;
+    }
+    .left-front:hover {
+      transform: translate(35px, 90px) skewY(10deg) scale(1.02);
+      filter: drop-shadow(0 0 20px rgba(0, 242, 254, 0.6));
+    }
+
+    .left-middle {
+      transform: translate(160px, 140px) skewY(8deg) scale(0.78);
+      transform-origin: top left;
+    }
+    .left-middle:hover {
+      transform: translate(160px, 120px) skewY(8deg) scale(0.85);
+      filter: drop-shadow(0 0 20px rgba(86, 243, 167, 0.6));
+    }
+
+    .left-back {
+      transform: translate(270px, 160px) skewY(6deg) scale(0.62);
+      transform-origin: top left;
+    }
+    .left-back:hover {
+      transform: translate(270px, 145px) skewY(6deg) scale(0.68);
+      filter: drop-shadow(0 0 20px rgba(251, 191, 36, 0.6));
+    }
+
+    /* Right Wall Receding transforms */
+    .right-back {
+      transform: translate(470px, 160px) skewY(-6deg) scale(0.62);
+      transform-origin: top right;
+    }
+    .right-back:hover {
+      transform: translate(470px, 145px) skewY(-6deg) scale(0.68);
+      filter: drop-shadow(0 0 20px rgba(244, 63, 94, 0.6));
+    }
+
+    .right-middle {
+      transform: translate(560px, 140px) skewY(-8deg) scale(0.78);
+      transform-origin: top right;
+    }
+    .right-middle:hover {
+      transform: translate(560px, 120px) skewY(-8deg) scale(0.85);
+      filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.6));
+    }
+
+    .right-front {
+      transform: translate(665px, 110px) skewY(-10deg) scale(0.95);
+      transform-origin: top right;
+    }
+    .right-front:hover {
+      transform: translate(665px, 90px) skewY(-10deg) scale(1.02);
+      filter: drop-shadow(0 0 20px rgba(0, 242, 254, 0.6));
+    }
+
+    /* Spotlight Overlays */
+    .spotlight {
+      opacity: 0.05;
+      transition: opacity 0.4s ease;
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+    .card-group:hover .spotlight {
+      opacity: 0.75;
+    }
+
+    /* Pedestal & Core */
+    .pedestal {
+      fill: #090e1a;
+      stroke: #1e293b;
+      stroke-width: 1.5;
+    }
+
+    @keyframes rotateRing {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .orbit-ring {
+      transform-origin: 400px 220px;
+      animation: rotateRing 12s linear infinite;
+    }
+    .orbit-ring-reverse {
+      transform-origin: 400px 220px;
+      animation: rotateRing 16s linear infinite reverse;
+    }
+    .core-glow {
+      filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.8));
+      animation: pulseGlow 3s ease-in-out infinite alternate;
+    }
+    @keyframes pulseGlow {
+      0% { transform: scale(1); filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.7)); }
+      100% { transform: scale(1.15); filter: drop-shadow(0 0 16px rgba(0, 242, 254, 0.95)); }
+    }
+  </style>
+
+  <!-- Background base -->
+  <rect width="800" height="450" class="bg-grad" />
+
+  <!-- 3D Room Grid lines (Perspective Guidelines) -->
+  <!-- Main structural walls -->
+  <line x1="0" y1="80" x2="400" y2="210" stroke="#1f2937" stroke-width="1.5" opacity="0.3" />
+  <line x1="0" y1="370" x2="400" y2="240" stroke="#1f2937" stroke-width="1.5" opacity="0.3" />
+  <line x1="800" y1="80" x2="400" y2="210" stroke="#1f2937" stroke-width="1.5" opacity="0.3" />
+  <line x1="800" y1="370" x2="400" y2="240" stroke="#1f2937" stroke-width="1.5" opacity="0.3" />
+
+  <!-- Ceiling Grid (using Clip) -->
+  <g clip-path="url(#ceiling-clip)">
+    <!-- Radial Lines converging at vanishing point (400, 210) -->
+    <line x1="400" y1="210" x2="-200" y2="0" class="grid-line" />
+    <line x1="400" y1="210" x2="0" y2="0" class="grid-line" />
+    <line x1="400" y1="210" x2="200" y2="0" class="grid-line" />
+    <line x1="400" y1="210" x2="400" y2="0" class="grid-line-glow" />
+    <line x1="400" y1="210" x2="600" y2="0" class="grid-line" />
+    <line x1="400" y1="210" x2="800" y2="0" class="grid-line" />
+    <line x1="400" y1="210" x2="1000" y2="0" class="grid-line" />
+
+    <!-- Receding grid rows -->
+    <line x1="-100" y1="207" x2="900" y2="207" class="grid-line" />
+    <line x1="-100" y1="202" x2="900" y2="202" class="grid-line" />
+    <line x1="-100" y1="194" x2="900" y2="194" class="grid-line" />
+    <line x1="-100" y1="180" x2="900" y2="180" class="grid-line" opacity="0.6" />
+    <line x1="-100" y1="160" x2="900" y2="160" stroke="#ff00a0" stroke-dasharray="2 6" stroke-width="1" opacity="0.2" />
+    <line x1="-100" y1="130" x2="900" y2="130" class="grid-line" opacity="0.6" />
+    <line x1="-100" y1="85" x2="900" y2="85" class="grid-line-glow" />
+  </g>
+
+  <!-- Floor Grid (using Clip) -->
+  <g clip-path="url(#floor-clip)">
+    <!-- Radial Lines converging at vanishing point (400, 240) -->
+    <line x1="400" y1="240" x2="-200" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="0" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="150" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="300" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="400" y2="450" class="grid-line-glow" />
+    <line x1="400" y1="240" x2="500" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="650" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="800" y2="450" class="grid-line" />
+    <line x1="400" y1="240" x2="1000" y2="450" class="grid-line" />
+
+    <!-- Receding grid rows -->
+    <line x1="-100" y1="243" x2="900" y2="243" class="grid-line" />
+    <line x1="-100" y1="248" x2="900" y2="248" class="grid-line" />
+    <line x1="-100" y1="256" x2="900" y2="256" class="grid-line" />
+    <line x1="-100" y1="270" x2="900" y2="270" class="grid-line" opacity="0.6" />
+    <line x1="-100" y1="290" x2="900" y2="290" stroke="#00f2fe" stroke-dasharray="2 6" stroke-width="1" opacity="0.2" />
+    <line x1="-100" y1="320" x2="900" y2="320" class="grid-line" opacity="0.6" />
+    <line x1="-100" y1="365" x2="900" y2="365" class="grid-line-glow" />
+    <line x1="-100" y1="430" x2="900" y2="430" class="grid-line" opacity="0.8" />
+  </g>
+
+  <!-- Ambient background glow in the center corridor -->
+  <circle cx="400" cy="225" r="160" fill="#8b5cf6" opacity="0.08" filter="blur(40px)" />
+  <circle cx="400" cy="225" r="90" fill="#00f2fe" opacity="0.05" filter="blur(30px)" />
+
+  <!-- Center Holographic Exhibition Core -->
+  <g>
+    <!-- Pedestal Base (metallic cylindrical platform) -->
+    <path d="M 370 305 L 370 325 A 30 10 0 0 0 430 325 L 430 305 Z" class="pedestal" />
+    <ellipse cx="400" cy="305" rx="30" ry="10" fill="#111827" stroke="#374151" stroke-width="1.5" />
+    <ellipse cx="400" cy="305" rx="20" ry="6" fill="#00f2fe" opacity="0.15" />
+    
+    <!-- Hologram Laser Ray -->
+    <polygon points="385,305 394,220 406,220 415,305" fill="url(#coreBeamGradient)" opacity="0.3" />
+
+    <!-- Dashed Orbiting Tech Rings -->
+    <ellipse cx="400" cy="220" rx="42" ry="12" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="8 12" class="orbit-ring" opacity="0.8" />
+    <ellipse cx="400" cy="220" rx="52" ry="16" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4 8" class="orbit-ring-reverse" opacity="0.6" />
+
+    <!-- 3D Rotating Artifact/Core (Diamond holographic projection) -->
+    <g class="core-glow" transform="translate(0, 0)">
+      <polygon points="400,205 409,220 400,235 391,220" fill="url(#coreGradient)" />
+      <!-- Cyber design elements inside core -->
+      <line x1="400" y1="205" x2="400" y2="235" stroke="#ffffff" stroke-width="0.5" opacity="0.7" />
+      <line x1="391" y1="220" x2="409" y2="220" stroke="#ffffff" stroke-width="0.5" opacity="0.7" />
+    </g>
+  </g>
+
+
+  <!-- ==================== LEFT WALL GALLERY EXHIBITS ==================== -->
+
+  <!-- EXHIBIT 1: MICROSOFT AZURE AI ENGINEER (FRONT LEFT) -->
+  <g class="float-1">
+    <!-- Card Group -->
+    <g class="left-front card-group">
+      <!-- Floor Shadow (Perspective Oval) -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" transform="translate(0, 0)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-azure)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-80" x2="60" y2="0" stroke="#00f2fe" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+      
+      <!-- Main Exhibit Frame (Glassmorphism card) -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-azure)" stroke-width="1.8" />
+      <!-- Tech circuit patterns in card background -->
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#0089d6" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame (Cyber Circle) -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#00f2fe" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#0089d6" fill-opacity="0.1" />
+      <!-- Azure Cloud Icon Path -->
+      <path d="M 49 49 a 4.5 4.5 0 0 1 4.5 -4.5 a 6.5 6.5 0 0 1 12.5 -2.5 a 5.5 5.5 0 0 1 5.5 5.5 a 4.5 4.5 0 0 1 -4.5 4.5 H 53.5 a 4.5 4.5 0 0 1 -4.5 -3 Z" fill="none" stroke="#00f2fe" stroke-width="1.8" stroke-linejoin="round" />
+
+      <!-- Exhibition Information -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MICROSOFT AZURE</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">AI ENGINEER</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Associate (AI-102)</text>
+      
+      <!-- Floating Glass metal badge indicator -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 01 ]</text>
+    </g>
+  </g>
+
+  <!-- EXHIBIT 2: MONGODB CERTIFIED DEVELOPER (MIDDLE LEFT) -->
+  <g class="float-2">
+    <!-- Card Group -->
+    <g class="left-middle card-group">
+      <!-- Shadow -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-mongo)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-120" x2="60" y2="0" stroke="#56f3a7" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+
+      <!-- Main Frame -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-mongo)" stroke-width="1.8" />
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#4ea94b" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#56f3a7" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#4ea94b" fill-opacity="0.1" />
+      <!-- MongoDB leaf path -->
+      <path d="M 60 28 C 65 35 68 45 60 56 C 52 45 55 35 60 28 Z M 60 28 V 56" fill="none" stroke="#56f3a7" stroke-width="1.8" stroke-linecap="round" />
+
+      <!-- Info -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">MONGODB CORE</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#56f3a7" letter-spacing="1">DEVELOPER</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Certified Associate</text>
+
+      <!-- Exhibition Label -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#56f3a7" font-weight="bold">[ EXHIBIT 02 ]</text>
+    </g>
+  </g>
+
+  <!-- EXHIBIT 3: ORACLE APEX PROFESSIONAL (BACK LEFT) -->
+  <g class="float-3">
+    <!-- Card Group -->
+    <g class="left-back card-group">
+      <!-- Shadow -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-oracle)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-160" x2="60" y2="0" stroke="#fbbf24" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+
+      <!-- Main Frame -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-oracle)" stroke-width="1.8" />
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#f43f5e" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#fbbf24" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#fbbf24" fill-opacity="0.1" />
+      <!-- Database cylinders path -->
+      <path d="M 48 35 h 24 v 5 H 48 Z M 48 43 h 24 v 5 H 48 Z M 48 51 h 24 v 5 H 48 Z" fill="none" stroke="#fbbf24" stroke-width="1.8" />
+
+      <!-- Info -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">ORACLE APEX</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#fbbf24" letter-spacing="1">PROFESSIONAL</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">Cloud Databases</text>
+
+      <!-- Exhibition Label -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#fbbf24" font-weight="bold">[ EXHIBIT 03 ]</text>
+    </g>
+  </g>
+
+
+  <!-- ==================== RIGHT WALL GALLERY EXHIBITS ==================== -->
+
+  <!-- EXHIBIT 4: RUBY YEAR PROJECT EXPO (BACK RIGHT) -->
+  <g class="float-1">
+    <!-- Card Group -->
+    <g class="right-back card-group">
+      <!-- Shadow -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-ruby)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-160" x2="60" y2="0" stroke="#ff00a0" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+
+      <!-- Main Frame -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-ruby)" stroke-width="1.8" />
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#ff00a0" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#ff00a0" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#ff00a0" fill-opacity="0.1" />
+      <!-- Diamond Star Path -->
+      <path d="M 60 28 L 65 37 L 75 37 L 67 43 L 70 52 L 60 46 L 50 52 L 53 43 L 45 37 L 55 37 Z" fill="none" stroke="#ff00a0" stroke-width="1.5" stroke-linejoin="round" />
+
+      <!-- Info -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">RUBY PROJECT EXPO</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#ff00a0" letter-spacing="1">TOP SHORTLIST</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">AI Architectural Tool</text>
+
+      <!-- Exhibition Label -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#ff00a0" font-weight="bold">[ EXHIBIT 04 ]</text>
+    </g>
+  </g>
+
+  <!-- EXHIBIT 5: HACKSPHERE '25 (MIDDLE RIGHT) -->
+  <g class="float-2">
+    <!-- Card Group -->
+    <g class="right-middle card-group">
+      <!-- Shadow -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-hack)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-120" x2="60" y2="0" stroke="#8b5cf6" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+
+      <!-- Main Frame -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-hack)" stroke-width="1.8" />
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#8b5cf6" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#8b5cf6" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#8b5cf6" fill-opacity="0.1" />
+      <!-- Hexagon with Code Path -->
+      <path d="M 60 28 L 71 34 L 71 48 L 60 54 L 49 48 L 49 34 Z" fill="none" stroke="#8b5cf6" stroke-width="1.5" />
+      <path d="M 54 39 L 51 41 L 54 43 M 66 39 L 69 41 L 66 43 M 62 37 L 58 45" stroke="#ffffff" stroke-width="1" stroke-linecap="round" fill="none" />
+
+      <!-- Info -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">HACKSPHERE '25</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#8b5cf6" letter-spacing="1">PROTOTYPE WIN</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">24h Rapid Integration</text>
+
+      <!-- Exhibition Label -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#8b5cf6" font-weight="bold">[ EXHIBIT 05 ]</text>
+    </g>
+  </g>
+
+  <!-- EXHIBIT 6: GENERATIVE AI INTERNSHIP (FRONT RIGHT) -->
+  <g class="float-3">
+    <!-- Card Group -->
+    <g class="right-front card-group">
+      <!-- Shadow -->
+      <ellipse cx="60" cy="190" rx="70" ry="15" fill="#000000" fill-opacity="0.6" filter="blur(6px)" />
+      
+      <!-- Backdrop Spotlight Glow -->
+      <ellipse cx="60" cy="90" rx="140" ry="140" fill="url(#spotlight-intern)" class="spotlight" />
+
+      <!-- Laser Anchor mount -->
+      <line x1="60" y1="-80" x2="60" y2="0" stroke="#00f2fe" stroke-width="0.75" stroke-dasharray="3 3" opacity="0.3" />
+
+      <!-- Main Frame -->
+      <rect width="120" height="180" rx="12" fill="#080e1e" fill-opacity="0.82" stroke="url(#border-intern)" stroke-width="1.8" />
+      <path d="M 10 170 H 110 M 15 10 V 40 M 105 10 V 40" stroke="#00f2fe" stroke-width="0.5" opacity="0.25" />
+
+      <!-- Icon Frame -->
+      <circle cx="60" cy="45" r="24" fill="#0a1226" stroke="#00f2fe" stroke-width="1" />
+      <circle cx="60" cy="45" r="20" fill="#00f2fe" fill-opacity="0.1" />
+      <!-- Neural Network Node Path -->
+      <circle cx="60" cy="38" r="3.5" fill="none" stroke="#00f2fe" stroke-width="1.5" />
+      <circle cx="51" cy="47" r="3" fill="none" stroke="#ffffff" stroke-width="1.5" />
+      <circle cx="69" cy="47" r="3" fill="none" stroke="#ffffff" stroke-width="1.5" />
+      <line x1="58.5" y1="41" x2="52.5" y2="45" stroke="#00f2fe" stroke-width="1.2" />
+      <line x1="61.5" y1="41" x2="67.5" y2="45" stroke="#00f2fe" stroke-width="1.2" />
+      <line x1="54" y1="47" x2="66" y2="47" stroke="#00f2fe" stroke-width="1.2" />
+
+      <!-- Info -->
+      <text x="60" y="96" text-anchor="middle" font-family="Outfit" font-weight="700" font-size="11" fill="#ffffff" letter-spacing="0.5">GENERATIVE AI</text>
+      <text x="60" y="110" text-anchor="middle" font-family="Outfit" font-weight="600" font-size="9" fill="#00f2fe" letter-spacing="1">RESEARCH AGENT</text>
+      <text x="60" y="122" text-anchor="middle" font-family="Outfit" font-size="8" fill="#94a3b8">LLM Tuning &amp; Agents (2025)</text>
+
+      <!-- Exhibition Label -->
+      <rect x="25" y="142" width="70" height="16" rx="4" fill="#0f172a" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+      <text x="60" y="153" text-anchor="middle" font-family="Fira Code" font-size="8" fill="#00f2fe" font-weight="bold">[ EXHIBIT 06 ]</text>
+    </g>
+  </g>
+
+</svg>

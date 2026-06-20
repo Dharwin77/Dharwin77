@@ -172,26 +172,22 @@ A showcase of applications showing ML integrations with robust web frameworks.
 
 ## ─── 🏆 ACHIEVEMENTS & CERTIFICATIONS ───
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🥇 Key Achievements</h4>
-      <ul>
-        <li>💼 <b>Generative AI Internship</b> (2025) - Built and deployed fine-tuned LLM agents.</li>
-        <li>💻 <b>HackSphere '25</b> - Developed fully functioning prototype integrations in a 24h hackathon.</li>
-        <li>🔬 <b>Ruby Year Project Expo 2025</b> - Top-shortlisted project for AI architectural tools.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📜 Professional Certifications</h4>
-      <ul>
-        <li>☁️ <b>Microsoft Azure AI Engineer Associate (AI-102)</b></li>
-        <li>🍃 <b>MongoDB Certified Associate Developer</b></li>
-        <li>📊 <b>Oracle APEX Professional</b></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./achievements-gallery.svg" alt="Achievements & Certifications Virtual Gallery" width="100%" />
+</p>
+
+<details>
+  <summary><b>📜 View Plain Text Achievements &amp; Certifications</b></summary>
+  <br/>
+
+*   🥇 **Generative AI Internship (2025):** Built and deployed fine-tuned LLM agents.
+*   💻 **HackSphere '25 Hackathon:** Developed fully functioning prototype integrations in a 24h hackathon.
+*   🔬 **Ruby Year Project Expo 2025:** Top-shortlisted project for AI architectural tools.
+*   ☁️ **Microsoft Azure AI Engineer Associate (AI-102)**
+*   🍃 **MongoDB Certified Associate Developer**
+*   📊 **Oracle APEX Professional**
+</details>
+
 
 ---
 
