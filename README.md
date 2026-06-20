@@ -173,7 +173,7 @@ A showcase of applications showing ML integrations with robust web frameworks.
 ## ─── 🏆 ACHIEVEMENTS & CERTIFICATIONS ───
 
 <p align="center">
-  <img src="./achievements-gallery.svg?v=2" alt="Achievements &amp; Certifications Virtual Gallery" width="100%" />
+  <img src="./achievements-gallery.svg?v=3" alt="Achievements &amp; Certifications Virtual Gallery" width="100%" />
 </p>
 
 <details>
