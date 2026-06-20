@@ -8,11 +8,7 @@
 
 
 <p align="center">
-  <img src="./views-cyberpunk.svg" alt="Profile Views" />
-  <!-- Other styles available: 
-       Aurora Glassmorphism:  ./views-aurora.svg
-       Tactical HUD:          ./views-hud.svg
-  -->
+  <img src="https://komarev.com/ghpvc/?username=Dharwin77&color=5eebd4&style=flat-square&label=PROFILE+VIEWS&label_color=080e1e" alt="Profile Views" />
 </p>
 
 <!-- Social Media Badges -->
