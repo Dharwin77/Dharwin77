@@ -233,10 +233,48 @@ Dynamic development dashboard summarizing active git statistics:
 
 I'm always open to discussing new projects, internships, or open-source collaborations. Feel free to reach out!
 
-* 🌐 **Personal Website:** [dharwin.tech](https://dharwin.tech)
-* 💼 **LinkedIn Profile:** [/in/dharwin-s](https://linkedin.com/in/dharwin-s)
-* 📧 **Direct Inbox:** [dharwinsangamani@gmail.com](mailto:dharwinsangamani@gmail.com)
-* 👨‍💻 **GitHub Profile:** [@Dharwin77](https://github.com/Dharwin77)
+<table width="100%">
+  <tr valign="top">
+    <td width="50%">
+      <p align="center">
+        <a href="https://dharwin.tech/" target="_blank">
+          <img src="./social-portfolio.svg" alt="Portfolio" height="40" />
+        </a>
+        <br/>
+        <sub>Explore live projects, web apps, and tech articles.</sub>
+      </p>
+    </td>
+    <td width="50%">
+      <p align="center">
+        <a href="https://linkedin.com/in/dharwin-s" target="_blank">
+          <img src="./social-linkedin.svg" alt="LinkedIn" height="40" />
+        </a>
+        <br/>
+        <sub>Connect for updates, career opportunities, and networks.</sub>
+      </p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="50%">
+      <p align="center">
+        <a href="https://github.com/Dharwin77" target="_blank">
+          <img src="./social-github.svg" alt="GitHub" height="40" />
+        </a>
+        <br/>
+        <sub>Browse my open-source repositories and contributions.</sub>
+      </p>
+    </td>
+    <td width="50%">
+      <p align="center">
+        <a href="mailto:dharwinsangamani@gmail.com">
+          <img src="./social-email.svg" alt="Email" height="40" />
+        </a>
+        <br/>
+        <sub>Drop a line directly for collaborations or queries.</sub>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="right">
   <i>Last Synchronized: June 2026</i>
